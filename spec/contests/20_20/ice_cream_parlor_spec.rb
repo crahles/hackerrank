@@ -1,4 +1,3 @@
-require 'spec_helper'
 require './lib/contests/20_20/ice_cream_parlor'
 
 describe IceCreamParlor do
