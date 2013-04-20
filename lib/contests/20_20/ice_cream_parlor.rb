@@ -1,7 +1,6 @@
 require 'matrix'
 
 class IceCreamParlor
-
   def initialize
     count = $stdin.gets.to_i
     count.times { compute_testcase }
@@ -14,5 +13,4 @@ class IceCreamParlor
       return puts "#{row+1} #{col+1}" if e == c && row != col
     end
   end
-
 end
