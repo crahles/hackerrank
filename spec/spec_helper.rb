@@ -9,3 +9,6 @@ RSpec.configure do |config|
   config.filter_run :focus
   config.order = 'random'
 end
+
+Pry.config.input  = STDIN
+Pry.config.output = STDOUT
